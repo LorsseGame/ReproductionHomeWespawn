@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #070707;
+  font-size: 3vw;
+}
+
+p {
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "PPNeue";
+  src: url(fonts/PPNeueMachina-PlainUltrabold.otf);
+}
+@font-face {
+  font-family: "RNSSanz";
+  src: url(fonts/RNSSanz-Normal.otf);
+}
+
+@media (max-width: 630px) {
+  .drop-item-small-screen {
+    display: none;
+    position: static; /* Réinitialisez la position */
+    margin: 0; /* Réinitialisez les marges */
+    padding: 0; /* Réinitialisez les paddings */
+  }
+}
+
+.top-nav {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  gap: 65vw;
+  margin: 3vw 0 0 20px;
+  width: 91%;
+}
+
+.item-img-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.img-nav {
+  height: 30px;
+  width: 40px;
+}
+
+.img-nav-menu {
+  height: 30px;
+  width: 40px;
+}
+
+.font-img {
+  position: relative;
+  overflow: hidden;
+  height: 120vw;
+}
+
+.img-font-top {
+  margin-top: 30px;
+  height: 400px;
+  width: 100%;
+}
+
+.img-top-font {
+  width: 100%;
+}
+
+.font-img {
+  background-image: url(Image/gamer1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.containt-text-top {
+  position: absolute;
+  bottom: 0;
+  margin-left: 2rem;
+  padding-bottom: 13vw;
+}
+
+.text-font {
+  font-family: RNSSanz;
+  font-weight: 1000;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+.text-hight {
+  /* font-style: italic ; */
+  font-family: RNSSanz;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 34px;
+  width: 46vw;
+  height: 57px;
+}
+
+.btn-yellow {
+  background: #eafe52;
+  text-decoration: none;
+  border: none;
+  border-radius: 5.049px;
+  padding: 16px;
+}
+
+/* Main */
+
+.info-main {
+  margin-top: 40px;
+  margin-left: 32px;
+}
+
+.question-top {
+  font-family: PPNeue;
+  margin-bottom: 16px;
+}
+
+.content-main {
+  font-family: RNSSanz;
+
+  width: 49vw;
+  height: 25vw;
+}
+
+.font-main {
+  position: relative;
+  overflow: hidden;
+  height: 105vw;
+  width: 100%;
+  background-image: url(Image/gamer2.png);
+  background-size: contain;
+}
+
+.p-open {
+  font-family: PPNeue;
+
+  margin-bottom: 24px;
+}
+
+.direction-count-font {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  margin-left: 32px;
+  margin-bottom: 10vw;
+  bottom: 0;
+  width: auto;
+}
+
+.direction-block {
+  display: flex;
+
+  gap: 16px;
+}
+
+.img-font-main {
+  width: 100%;
+  height: 452px;
+}
+
+.container-yellow-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 7.842px;
+  border: 0.886px solid #eafe52;
+
+  width: 69px;
+  height: 75px;
+  margin-bottom: 15vw;
+}
+
+.container-yellow-number p {
+  font-family: RNSSanz;
+}
+
+.containt-newsletter {
+  margin: 40px 0 0 32px;
+}
+
+.request-newsletter {
+  font-family: PPNeue;
+
+  margin-bottom: 24px;
+}
+
+.input-email-newsletter {
+  background: #383b3f;
+
+  border-radius: 6px;
+  border: 1px solid #000;
+
+  width: 230px;
+  height: 51px;
+
+  color: #fff;
+
+  font-family: RNSSanz;
+  font-size: 16px;
+  opacity: 0.3;
+  padding-left: 16px;
+}
+
+.btn-yellow-newsletter {
+  background: #eafe52;
+  color: #16181d;
+
+  font-weight: 600;
+  width: 88px;
+  height: 51px;
+  border-radius: 6px;
+}
+/* Footer */
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer-font {
+  position: absolute;
+  background-image: url(Image/background-w.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vw;
+  opacity: 10%;
+}
+.containt-footer {
+  margin-left: 32px;
+}
+
+.direction-info-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-bottom: 32px;
+}
+
+.direction-info-footer p {
+  font-family: RNSSanz;
+}
+
+.ligne-footer {
+  width: 326px;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.network-footer {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 32px;
+}
+
+.network-footer img {
+  width: 25px;
+  height: 25px;
+}
+.img-footer {
+  width: 188px;
+  height: 60px;
+}
+
+@media (max-width: 360px) {
+
+  body{
+    font-size: 3vw;
+  }
+
+  .img-top-wespawn{
+    width: 50vw;
+    height: 20vw;
+  }
+
+  .text-hight{
+    width: 80vw;
+  }
+
+  .content-main{
+    width: 63vw;
+  }
+
+  .ligne-footer{
+    width: 82vw;
+  }
+
+  .direction-count-font{
+    width: 80vw;
+  }
+
+  .container-yellow-number{
+    height: 17vw;
+  }
+}
+
+@media (min-width: 630px) {
+
+  body{
+    font-size: 1.8vw;
+  }
+  .img-nav-menu {
+    display: none;
+  }
+
+  .font-img .containt-text-top {
+    display: none;
+  }
+
+  .img-nav {
+    width: 69px;
+    height: 41px;
+  }
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: inherit;
+    width: 96%;
+  }
+
+  .a-nav{
+    font-family: PPNeue ;
+  }
+
+  .item-img-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 3vw;
+  }
+
+  .item-nav-screen-hight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+  }
+
+  .item-nav-screen-hight p {
+    font-family: PPNeue;
+    text-transform: uppercase;
+  }
+
+  .btn-nav {
+    color: white;
+    background: #1f2526;
+    border: none;
+
+    width: 226px;
+    height: 65px;
+    border-radius: 86.232px;
+  }
+
+  .font-img {
+    width: 100%;
+    height: 50vw;
+  }
+
+  .font-img-w {
+    position: relative;
+    background-image: url(Image/background-w.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40vw;
+    opacity: 10%;
+    margin-top: 8vw;
+    height: 30vw;
+  }
+
+  .btn-yellow {
+    width: 21vw;
+  }
+  .containt-main {
+    display: flex;
+  }
+
+  .containt-text-top {
+    left: 10vw;
+    padding-bottom: 7vw;
+  }
+  .containt-img-main {
+    position: relative;
+  }
+
+  button{
+    font-family: PPNeue;
+  }
+
+  .containt-img-main img,
+  button {
+    width: 20vw;
+  }
+  .containt-img-main p {
+    width: auto;
+    height: auto;
+  }
+
+  .info-main {
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    width: 55%;
+  }
+
+  .question-top {
+    font-size: 2vw;
+  }
+
+  .content-main {
+    width: 100%;
+  }
+
+  .font-main {
+    background-repeat: no-repeat;
+    background-size: 70vw 70vw; 
+    width: 90%;
+    height: 55vw;
+  }
+
+  .direction-block{
+    gap: 3vw;
+  }
+
+  .container-yellow-number{
+    width: 8vw;
+    height: 8vw;
+    margin-bottom: 10vw;
+  }
+
+  .direction-count-font {
+    margin: 0 0 4vw 10vw;
+  }
+
+  .containt-newsletter {
+    width: 50%;
+    margin-left: 8vw;
+  }
+  .request-newsletter {
+    font-size: 2vw;
+  }
+
+  .input-email-newsletter {
+    width: 32vw;
+  }
+
+  .footer-font {
+    height: 23vw;
+    background-size: 40vw;
+    background-position: 100%;
+    opacity: 5%;
+  }
+  .ligne-footer{
+    width: 80%;
+    border-radius: 80%;
+
+  }
+}
