@@ -19,7 +19,7 @@ p {
   color: white;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
@@ -28,6 +28,7 @@ a{
   font-family: "PPNeue";
   src: url(fonts/PPNeueMachina-PlainUltrabold.otf);
 }
+
 @font-face {
   font-family: "RNSSanz";
   src: url(fonts/RNSSanz-Normal.otf);
@@ -36,9 +37,12 @@ a{
 @media (max-width: 630px) {
   .drop-item-small-screen {
     display: none;
-    position: static; /* Réinitialisez la position */
-    margin: 0; /* Réinitialisez les marges */
-    padding: 0; /* Réinitialisez les paddings */
+    position: static;
+    /* Réinitialisez la position */
+    margin: 0;
+    /* Réinitialisez les marges */
+    padding: 0;
+    /* Réinitialisez les paddings */
   }
 }
 
@@ -207,16 +211,13 @@ a{
 
 .input-email-newsletter {
   background: #383b3f;
+  border: 1px solid #000;
+  color: #fff;
+  font-family: RNSSanz;
 
   border-radius: 6px;
-  border: 1px solid #000;
-
   width: 230px;
   height: 51px;
-
-  color: #fff;
-
-  font-family: RNSSanz;
   font-size: 16px;
   opacity: 0.3;
   padding-left: 16px;
@@ -231,6 +232,7 @@ a{
   height: 51px;
   border-radius: 6px;
 }
+
 /* Footer */
 
 .footer {
@@ -246,6 +248,7 @@ a{
   height: 70vw;
   opacity: 10%;
 }
+
 .containt-footer {
   margin-left: 32px;
 }
@@ -279,6 +282,7 @@ a{
   width: 25px;
   height: 25px;
 }
+
 .img-footer {
   width: 188px;
   height: 60px;
@@ -286,41 +290,42 @@ a{
 
 @media (max-width: 360px) {
 
-  body{
+  body {
     font-size: 3vw;
   }
 
-  .img-top-wespawn{
+  .img-top-wespawn {
     width: 50vw;
     height: 20vw;
   }
 
-  .text-hight{
+  .text-hight {
     width: 80vw;
   }
 
-  .content-main{
+  .content-main {
     width: 63vw;
   }
 
-  .ligne-footer{
+  .ligne-footer {
     width: 82vw;
   }
 
-  .direction-count-font{
+  .direction-count-font {
     width: 80vw;
   }
 
-  .container-yellow-number{
+  .container-yellow-number {
     height: 17vw;
   }
 }
 
 @media (min-width: 630px) {
 
-  body{
+  body {
     font-size: 1.8vw;
   }
+
   .img-nav-menu {
     display: none;
   }
@@ -333,6 +338,7 @@ a{
     width: 69px;
     height: 41px;
   }
+
   .top-nav {
     display: flex;
     justify-content: space-between;
@@ -340,8 +346,8 @@ a{
     width: 96%;
   }
 
-  .a-nav{
-    font-family: PPNeue ;
+  .a-nav {
+    font-family: PPNeue;
   }
 
   .item-img-nav {
@@ -392,6 +398,7 @@ a{
   .btn-yellow {
     width: 21vw;
   }
+
   .containt-main {
     display: flex;
   }
@@ -400,11 +407,12 @@ a{
     left: 10vw;
     padding-bottom: 7vw;
   }
+
   .containt-img-main {
     position: relative;
   }
 
-  button{
+  button {
     font-family: PPNeue;
   }
 
@@ -412,6 +420,7 @@ a{
   button {
     width: 20vw;
   }
+
   .containt-img-main p {
     width: auto;
     height: auto;
@@ -434,16 +443,16 @@ a{
 
   .font-main {
     background-repeat: no-repeat;
-    background-size: 70vw 70vw; 
+    background-size: 70vw 70vw;
     width: 90%;
     height: 55vw;
   }
 
-  .direction-block{
+  .direction-block {
     gap: 3vw;
   }
 
-  .container-yellow-number{
+  .container-yellow-number {
     width: 8vw;
     height: 8vw;
     margin-bottom: 10vw;
@@ -457,6 +466,7 @@ a{
     width: 50%;
     margin-left: 8vw;
   }
+
   .request-newsletter {
     font-size: 2vw;
   }
@@ -465,15 +475,21 @@ a{
     width: 32vw;
   }
 
+  .network-footer{
+    
+  }
+
   .footer-font {
     height: 23vw;
     background-size: 40vw;
     background-position: 100%;
     opacity: 5%;
   }
-  .ligne-footer{
-    width: 80%;
-    border-radius: 80%;
 
+  .ligne-footer-computer {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 32px;
   }
 }
